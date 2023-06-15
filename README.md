@@ -9,7 +9,7 @@ Here is the table overview about distribution of the data that our team used for
   
 Tabel 1. Dataset Distribution
  
-| No | Object Name               | Category  |   Number of Class | Number of training set | Number of test set |
+| No | Object Name               | Category  |   Number of Class | Number of Training Set | Number of Test Set |
 |:--:|:-------------------------:|:---------:|:---------:|:---------:|:---------:|
 | 1. |  Apple (Apel)             | Plant Crop Disease | 4 | 8014 | 1943 |
 | 2. |  Bell Pepper (Paprika)    | Plant Crop Disease | 2 | 4033 | 962 |
