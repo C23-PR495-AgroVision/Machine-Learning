@@ -32,7 +32,7 @@ Tabel 1. Dataset Distribution
 
 </div>
  
-## Model Evaluation
+## Modeling & Evaluation
 For the modeling part, we mainly used four different kind of model architectures. The first one is the self-created architecture where we defined the detail of each models, such as the layers, neurons, etc. The other three is using the transfer learning approach that referred to the official Keras API documentation [[5]](https://keras.io/api/applications/). We used Xception, MobileNetV2, and DenseNet121. The comparison between these three models is as follows.
 
 
