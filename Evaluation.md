@@ -235,3 +235,86 @@
 |  3 | DenseNet121 | 1.00000000 | 0.00990098 | 1.00000000 |
   
  </div>
+ 
+ ### Lime Ripeness
+ 
+ <div align="center">
+  
+| No |    Model    |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:-----------:|:----------:|:----------:|:----------:|
+|  1 | Xception    | 0.94827586 | 0.10563536 | 0.94718559 |
+|  2 | MobileNetV2 | 0.98275864 | 0.04840786 | 0.98255056 |
+|  3 | DenseNet121 | 0.99425286 | 0.03994407 | 0.99418352 |
+ 
+</div>
+
+### Orange Ripeness
+<div align="center">
+
+| No |    Model    |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:-----------:|:----------:|:----------:|:----------:|
+|  1 | Xception    | 0.97071129 | 0.10480809 | 0.97063727 |
+|  2 | MobileNetV2 | 0.99581587 | 0.03788616 | 0.99580856 |
+|  3 | DenseNet121 | 0.99163181 | 0.04456567 | 0.99160697 |
+
+</div>
+
+### Pomegranate Ripeness
+<div align="center">
+
+| No |    Model    |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:-----------:|:----------:|:----------:|:----------:|
+|  1 | Xception    | 0.99371070 | 0.02224047 | 0.99266639 |
+|  2 | MobileNetV2 | 1.00000000 | 0.01458145 | 1.00000000 |
+|  3 | DenseNet121 | 0.99371070 | 0.02909623 | 0.99258292 |
+
+</div>
+
+## Vegetable Ripeness=
+### Bell Pepper Ripeness
+
+<div align="center">
+
+| No |            Model           |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:--------------------------:|:----------:|:----------:|:----------:|
+|  1 | DenseNet 121 (Version   2) | 0.99380803 | 0.04155298 | 0.99184300 |
+|  2 | MobileNetV2 (Version   1)  | 0.97832817 | 0.05807427 | 0.97176500 |
+|  3 | MobileNetV2 (Version   2)  | 0.97213620 | 0.07268561 | 0.96369700 |
+|  4 | DenseNet 121 (Version   1) | 0.96904027 | 0.08719029 | 0.95921600 |
+|  5 | Xception (Version 2)       | 0.96284831 | 0.14397764 | 0.95147400 |
+|  6 | Xception (Version 1)       | 0.94736844 | 0.15385775 | 0.93215000 |
+
+</div>
+
+### Chile Pepper Ripeness
+
+<div align="center">
+
+| No |            Model           |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:--------------------------:|:----------:|:----------:|:----------:|
+|  1 | DenseNet 121 (Version   1) | 0.94841927 | 0.18507145 | 0.94173900 |
+|  2 | DenseNet 121 (Version   2) | 0.94841927 | 0.16184105 | 0.94544700 |
+|  3 | MobileNetV2 (Version   2)  | 0.93510813 | 0.27050444 | 0.92514100 |
+|  4 | MobileNetV2 (Version   1)  | 0.92512476 | 0.25853795 | 0.91133100 |
+|  5 | Xception (Version 2)       | 0.92179698 | 0.26123106 | 0.91241700 |
+|  6 | Xception (Version 1)       | 0.91347754 | 0.26612681 | 0.90240000 |
+  
+</div>
+
+### Tomato Ripeness
+
+<div align="center">
+
+| No |            Model           |  Accuracy  |    Loss    |  F1-Score  |
+|:--:|:--------------------------:|:----------:|:----------:|:----------:|
+|  1 | DenseNet 121 (Version   2) | 0.97746480 | 0.13558786 | 0.97805800 |
+|  2 | Xception (Version 2)       | 0.97746480 | 0.16184105 | 0.97753300 |
+|  3 | MobileNetV2 (Version   2)  | 0.97183096 | 0.18801774 | 0.97225900 |
+|  4 | Xception (Version 1)       | 0.97183096 | 0.20872307 | 0.97102600 |
+|  5 | DenseNet 121 (Version   1) | 0.96901411 | 0.16311702 | 0.97000400 |
+|  6 | MobileNetV2 (Version   1)  | 0.96901411 | 0.19508788 | 0.97062800 |
+  
+</div>
+
+## Notes
+The difference between "Augmented 1" and "Augmented 2" or "Version 1" and "Version 2' is layer used before the output layer. Models with keys "Augmented 1" and "Version 1" use GlobalMaxPooling2D() while on models with keys "Augmented 2" and "Version 2" use GlobalAveragePooling2D() form TensorFlow
