@@ -10,7 +10,7 @@ Here is the table overview about distribution of the data that our team used for
 Tabel 1. Dataset Distribution
  
 | No | Object Name               | Category  |   Number of Class | Number of Training Set | Number of Test Set |
-|:--:|:-------------------------:|:---------:|:---------:|:---------:|:---------:|
+|:--:|-------------------------|---------|:---------:|---------:|---------:|
 | 1. |  Apple (Apel)             | Plant Crop Disease | 4 | 8014 | 1943 |
 | 2. |  Bell Pepper (Paprika)    | Plant Crop Disease | 2 | 4033 | 962 |
 | 3. |  Cherry (Ceri)    | Plant Crop Disease | 2 | 4205 | 1574 |
@@ -192,20 +192,20 @@ Tabel 8. Metrics of Peach Crop Disease Object
 |:--:|:----------------------------------:|:---------:|:---------:|:---------:|
 | 1. | DenseNet121 (Non-Augmented 1)   | 1 | 0.00094 | 1 |
 | 2. | DenseNet121 (Non-Augmented 2)   | 1 | 0.00120 | 1 |
-| 3. | DenseNet121   (Augmented 2)     | 1 | 0.0009900 | 1 |
-| 4. | MobileNetV2   (Augmented 1)     | 1 | 0.0019690 | 1 |
-| 5. | MobileNetV2   (Augmented 2)     | 1 | 0.0003690 | 1 |
-| 6. | Xception (Augmented   1)        | 1 | 0.0022940 | 1 |
-| 7. | Xception (Augmented   2)        | 1         | 0.0011670 | 1 |
-| 8. | MobileNetV2 (Non-Augmented 1)   | 0.9994520 | 0.0019780 | 0.9988 |
-| 9. | MobileNetV2 (Non-Augmented 2)   | 0.9988780 | 0.0027710 | 0.9988 |
-| 10. | Xception (Non-Augmented 1)     | 0.9988780 | 0.0015950 | 0.9988 |
-| 11. | Xception (Non-Augmented 2)     | 0.9988780 | 0.0040590 | 0.9988 |
-| 12. | DenseNet121   (Augmented 1)    | 0.9988780 | 0.0041770 | 0.9988 |
-| 13. | Self-Created   (Augmented 2)   | 0.9977550 | 0.0215090 | 0.9977 |
-| 14. | Self-Created   (Augmented 1)   | 0.9943880 | 0.0334000 | 0.9943 |
-| 15. | Self-Created (Non-Augmented 2) | 0.9831650 | 0.1386190 | 0.9831 |
-| 16. | Self-Created (Non-Augmented 1) | 0.9809200 | 0.1278190 | 0.9809 |
+| 3. | DenseNet121   (Augmented 2)     | 1 | 0.00099 | 1 |
+| 4. | MobileNetV2   (Augmented 1)     | 1 | 0.00196 | 1 |
+| 5. | MobileNetV2   (Augmented 2)     | 1 | 0.00036 | 1 |
+| 6. | Xception (Augmented   1)        | 1 | 0.00229 | 1 |
+| 7. | Xception (Augmented   2)        | 1         | 0.00116 | 1 |
+| 8. | MobileNetV2 (Non-Augmented 1)   | 0.9994520 | 0.00197 | 0.9988 |
+| 9. | MobileNetV2 (Non-Augmented 2)   | 0.9988780 | 0.00277 | 0.9988 |
+| 10. | Xception (Non-Augmented 1)     | 0.9988780 | 0.00159 | 0.9988 |
+| 11. | Xception (Non-Augmented 2)     | 0.9988780 | 0.00405 | 0.9988 |
+| 12. | DenseNet121   (Augmented 1)    | 0.9988780 | 0.00417 | 0.9988 |
+| 13. | Self-Created   (Augmented 2)   | 0.9977550 | 0.02150 | 0.9977 |
+| 14. | Self-Created   (Augmented 1)   | 0.9943880 | 0.03340 | 0.9943 |
+| 15. | Self-Created (Non-Augmented 2) | 0.9831650 | 0.13861 | 0.9831 |
+| 16. | Self-Created (Non-Augmented 1) | 0.9809200 | 0.12781 | 0.9809 |
   
  </div>
  
